@@ -1,9 +1,9 @@
 public class Animal {
-    private String name;
-    private int age;
-    private int paws;
-    private boolean isDomestic;
-    private String color;
+    protected String name;
+    protected int age;
+    protected int paws;
+    protected boolean isDomestic;
+    protected String color;
 
     public Animal(String name, int age, int paws, boolean isDomestic, String color) {
         this.name = name;
